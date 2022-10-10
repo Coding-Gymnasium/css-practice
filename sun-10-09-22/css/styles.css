@@ -1,0 +1,43 @@
+body {
+  background-color: lightgray;
+}
+
+.header {
+  border: 1px red solid;
+}
+.logo {
+  border: 1px black solid;
+}
+.nav {
+  border: 1px black solid;
+}
+
+.hero {
+  border: 1px black solid;
+}
+
+.main {
+  border: 1px black solid;
+}
+.services-section {
+  border: 1px black solid;
+}
+.boxes-container {
+  border: 1px black solid;
+}
+.box {
+  border: 1px black solid;
+}
+
+#box-1 {
+  border: 1px black dotted;
+}
+#box-2 {
+  border: 1px black dotted;
+}
+#box-3 {
+  border: 1px black dotted;
+}
+.footer {
+  border: 1px black solid;
+}

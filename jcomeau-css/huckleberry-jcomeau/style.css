@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Add styles here! */
+
+/* variables */
+:root {
+  /* Primary (green): */
+  --primary-green: hsl(160deg, 100%, 30%);
+
+  /* Secondary (gold): */
+
+  --secondary-gold-lighter: hsl(45deg, 100%, 50%);
+  --secondary-gold-darker: hsl(45deg, 100%, 40%);
+
+  /* Grays: */
+
+  --gray-black: hsl(0deg, 0%, 0%);
+  --gray-very-dark: hsl(0deg, 0%, 10%);
+  --gray-dark: hsl(0deg, 0%, 30%);
+  --gray-medium: hsl(0deg, 0%, 40%);
+  --gray-light: hsl(0deg, 0%, 60%);
+  --gray-white: hsl(0deg, 0%, 100%);
+}
+
+/* styles */
+
+header {
+  border-bottom: 8px solid var(--gray-light);
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+  margin: 0;
+  margin-bottom: 3rem;
+}
+
+p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+.max-width-wrapper {
+  width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.intro-chunk {
+  max-width: 415px;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+main {
+  background-color: var(--gray-dark);
+  padding: 64px 0;
+  width: 100%;
+}
+
+strong {
+  color: var(--primary-green);
+}
+
+.card {
+  border-bottom: 8px solid var(--gray-light);
+  width: fit-content;
+  background-color: var(--gray-white);
+  padding: 24px;
+  margin: 0 -24px;
+}
+
+.indented-heading {
+  font-size: 1.5rem;
+  line-height: 1.2;
+  margin: 0;
+  padding: 16px 32px;
+  background-color: var(--secondary-gold-lighter);
+  border-bottom: 8px solid var(--secondary-gold-darker);
+  margin-left: -32px;
+  margin-top: -16px;
+  margin-bottom: 1rem;
+  max-width: fit-content;
+}

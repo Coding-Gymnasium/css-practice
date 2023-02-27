@@ -1,0 +1,7 @@
+.perspective-decoration {
+  background-color: teal;
+  height: 40%;
+  position:sticky;
+  bottom: 0;
+  z-index: -1;
+}
